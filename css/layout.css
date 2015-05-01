@@ -1,33 +1,17 @@
-/*
-* Skeleton V1.2
-* Copyright 2011, Dave Gamache
-* www.getskeleton.com
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-* 6/20/2012
-*/
-
-/* Table of Content
-==================================================
-	#Site Styles
-	#Media Queries
-	#Font-Face */
-
-/* #Site Styles
-================================================== */
 html,body {
 	background: black;
 	font-family: 'Open Sans',"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: .92em;
 	color: #fff;
 	line-height: 1.5;
+	width: 100%;
 }
 
 
 
 html {}
 h2{
-	font-family: 'sanchez_slabregular', serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 32px;
 	line-height: 32px;
 	margin-bottom: 25px;
@@ -104,6 +88,8 @@ header  {
 
 .section{
 	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 .section h1{
 	width: 28%;
@@ -119,20 +105,22 @@ header  {
 /*------------About------------*/
 
 #about{
-	color: white;
-	padding: 50;
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .section img {
-	width: 28%;
+	width: 25%;
 	margin: 4.3%;
-	float:left;
 }
 
 .section h4 {
-	font-family: 600;
-	font-size: .7em;
-	padding:30px;
+	font-family: 300;
+	font-size: .85em;
+	position: center;
+	padding-left: 45px;
+	padding-right: 30px;
 }
 
 /*------------About the Director------------*/
@@ -142,26 +130,45 @@ header  {
 	padding: 100;
 }
 
+ .section p img {
+	width: 100%;
+	margin: 4%;
+	padding-right: 5%; 
+	border-radius:65%;
+}
+
 /*------------DONATE------------*/
 
 #donate {
 	color: white;
-	padding: 50;
+	padding: 30;
+	padding-top: 30px;
+	padding-bottom: 60px;
+	position: center;
 }
 
+/*------------SPONSORS------------*/
 
+#sponsor {
+	color: white;
+/*	padding-top: 60px;
+	padding-bottom: 60px;*/
+	text-align: center;
+}
+.sponsor {
+	display: inline;
+	width: 15%;
+}
 
 /*------------FOOTER------------*/
 
 footer {
-	background: #000;
-	color: white;
-	padding: 30px 0 50px 0;
-	font-size: 14px;
 }
+
 footer p {
-	margin: 0 0 10px 0;
+
 }
+
 footer a{
 	color: white;
 	text-decoration: none;
@@ -170,3 +177,27 @@ footer a:hover {
 	text-decoration: underline;
 }
 
+
+@media screen and (min-width: 321px) and (max-width: 768px){
+	.section p {
+		width: 90%;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	.section h3{
+		width: 90%;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.sponsor {
+	  width: 40%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.sponsor img {
+	  width: 80%;
+
+	}
+}
