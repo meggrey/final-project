@@ -22,6 +22,7 @@ a:visited {
 	color:inherit;
 }
 .container {
+	position: center;
 }
 
 .video {
@@ -123,10 +124,20 @@ header  {
 	padding-right: 30px;
 }
 
+.artists img{
+	float:left;
+	width: 12%;
+	margin: 1%;
+	padding-left: 1%; 
+	border-radius:75%;
+	padding-bottom: 2%;
+	
+}
+
 /*------------About the Director------------*/
 
 #director {
-	color: white;
+	color: #fff;
 	padding: 100;
 }
 
@@ -142,8 +153,8 @@ header  {
 #donate {
 	color: white;
 	padding: 30;
-	padding-top: 30px;
-	padding-bottom: 60px;
+	padding-top: 2%;
+	padding-bottom: 2%;
 	position: center;
 }
 
@@ -151,8 +162,6 @@ header  {
 
 #sponsor {
 	color: white;
-/*	padding-top: 60px;
-	padding-bottom: 60px;*/
 	text-align: center;
 }
 .sponsor {
@@ -163,6 +172,8 @@ header  {
 /*------------FOOTER------------*/
 
 footer {
+	float: left;
+	position: center;
 }
 
 footer p {
