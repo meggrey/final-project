@@ -32,8 +32,7 @@
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
-   <link rel="stylesheet" href="css/layout.css">
-
+  <link rel="stylesheet" href="css/layout.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -49,10 +48,24 @@
 
       <header>
 
-      <!-- <h1 class="logo">What It Takes</h1>  --> 
-<p> <img src="images/witlogo.png" alt="Logo";></p>
+        <!-- <h1 class="logo">What It Takes</h1>  --> 
+        <p> <img src="images/witlogo.png" alt="Logo";></p>
+        <div id="header">
+          <div id="logo"></div>
+            <div id="navWrap">
+                <div id="nav">
+                    <ul>
+                        <li class="border"><a href="#home" class="smoothScroll">HOME</a></li>
+                        <li><a href="#about" class="smoothScroll">ABOUT</a></li>
+                        <li><a href="#director" class="smoothScroll">ABOUT DIRECTOR</a></li>
+                        <li><a href="#donate" class="smoothScroll">DONATE</a></li>
+                    </ul>    
+                    <!-- <br class="clearLeft" /> -->
+                </div>
+            </div>
+        </div>
       </header>
-
+<!--
           <nav id="main-nav" class="ten columns offset-by-four">
           <ul>
             <li class="border"><a href="#home">HOME</a></li>
@@ -60,8 +73,23 @@
             <li class="border"><a href="#director">ABOUT THE DIRECTOR</a></li>
             <li class=""><a href="#donate">DONATE</a></li>
           </ul>
-  
-          </nav>
+   -->
+
+<!--     <div id="header">
+      <div id="logo"></div>
+        <div id="navWrap">
+            <div id="nav">
+                <ul>
+                    <li class="border"><a href="#home" class="smoothScroll">HOME</a></li>
+                    <li><a href="#about" class="smoothScroll">ABOUT</a></li>
+                    <li><a href="#director" class="smoothScroll">ABOUT DIRECTOR</a></li>
+                    <li><a href="#donate" class="smoothScroll">DONATE</a></li>
+                </ul>  -->   
+                <!-- <br class="clearLeft" /> -->
+   <!--          </div>
+        </div>
+    </div> -->
+          <!-- </nav> -->
     
 <div class="video">
 <video controls autoplay src="video/WIT_DOC.mp4"></video>
@@ -155,16 +183,8 @@ All of us on this journey, whether currently facing the challenges of the climb 
 </div>   
 
 <!--FOOTER -->
-  <div class="section"> 
-          <div id="footer" class="full-width">
-            <h4>
-             © 2015 WHAT IT TAKES
-            </h4>
-         </div>
-      </div>
 
-
-    <div id="footer" class= "full-width">
+<div id="footer" class= "full-width">
 <h3>Share this video.</h3>
 <span class='st_sharethis_large' displayText='ShareThis'></span>
 <span class='st_facebook_large' displayText='Facebook'></span>
@@ -172,6 +192,8 @@ All of us on this journey, whether currently facing the challenges of the climb 
 <span class='st_linkedin_large' displayText='LinkedIn'></span>
 <span class='st_pinterest_large' displayText='Pinterest'></span>
 <span class='st_email_large' displayText='Email'></span>
+
+<h5>&copy; 2015 WHAT IT TAKES</h5>
 </div>
 
     
@@ -185,5 +207,6 @@ All of us on this journey, whether currently facing the challenges of the climb 
 
     <script src="js/modal.js"></script>
     <script src="js/video.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>

@@ -17,7 +17,7 @@ this.video.currentTime = 0;
   //show modal
 
 } else if (this.video.currentTime < this.video.duration){
-  console.log(this.video.currentTime);
+  // console.log(this.video.currentTime);
   window.requestAnimationFrame(endCheck);
 
 }
@@ -37,7 +37,7 @@ this.video.currentTime = 0;
   this.init = function(){
 
     var that = this;
-    console.dir(this.video);
+    // console.dir(this.video);
 
     //this.resize();
 
